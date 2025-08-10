@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <a href="#" class="logo">HM</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Experience</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, I'm</h3>
+        <h1>Hunter</h1>
+        <div style="height: 3.2rem;">
+          <h3>I'm a <span class="multiple-text"></span></h3>
+        </div>
+        
+        <div class="social-media">
+          <a href="https://github.com/HunterMena/"><i class="bx bxl-github"></i></a>
+          <a href="https://www.instagram.com/huntermenaa/?hl=en"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/huntermena/"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="assets/cv.pdf" class="btn">Download CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="images/about.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>
+          I'm a senior at the University of Oklahoma majoring in Computer Science with a strong interest in
+          artificial intelligence, machine learning, and cloud technologies. I'm passionate about building
+          impactful software that bridges innovation and real-world problem solving. My goal is to contribute
+          to teams that value creativity, collaboration, and continuous learning.
+        </p>
+      </div>
+    </section>
+
+    <!-- services -->
+
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Experience</span></h2>
+      <div class="timeline">
+        <div class="timeline-item left">
+            <div class="services-box">
+                <img src="images/citi.jpg" alt="Citi Logo" class="company-logo"/>
+                <div class="content">
+                    <h3>Software Developer Summer Analyst</h3>
+                    <h4>Citi</h4>
+                    <span class="date"> June - August 2025</span>
+                    <p>
+                        Migrated a Talend-based reporting framework to Python and built a FastAPI web UI to generate reports by ID, retrieve security data, and email results to stakeholders.
+                        Wrote unit tests to reach 82% SonarQube coverage and remediated code smells, duplication, and security hotspots to meet internal quality standards.
+                        Integrated reporting functionality into Citi's ETL pipeline to support timely and accurate delivery of financial event data to internal consumers.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item right">
+            <div class="services-box">
+                <img src="images/iccew.jpg" alt="Irani Center Logo" class="company-logo"/>
+                <div class="content">
+                    <h3>Software Developer Intern</h3>
+                    <h4>The Ronnie K. Irani Center</h4>
+                    <span class="date">Spring 2025</span>
+                    <p>
+                        Developed two mobile safety applications using Flutter and Firebase, supporting user reporting and admin alerts.
+                        Built frontend and backend features including authentication, real-time messaging, and cloud storage.
+                        Integrated both apps to ensure synchronized communication and collaborated with a cross-functional team to deliver a full-stack MVP.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item left">
+            <div class="services-box">
+                <img src="images/disc.jpg" alt="DISC Logo" class="company-logo"/>
+                <div class="content">
+                    <h3>Undergraduate Research Assistant</h3>
+                    <h4>Data Institute for Societal Challenges</h4>
+                    <span class="date">Spring 2025</span>
+                    <p>
+                        Built and trained machine learning models to predict maternal health risks from a large set of real cardiology data.
+                        Used Python, scikit-learn, and TensorFlow for data preprocessing, SMOTE balancing, and model evaluation.
+                        Documented outcomes and supported the development of a clinical decision-support prototype with improved accuracy.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item right">
+            <div class="services-box">
+                <img src="images/bigevent.png" alt="Big Event Logo" class="company-logo"/>
+                <div class="content">
+                    <h3>Website Specialist</h3>
+                    <h4>The Big Event</h4>
+                    <span class="date">August 2023 - April 2024</span>
+                    <p>
+                        Re-designed and maintained the website for OU’s Big Event, the largest day of community service in Oklahoma.
+                        Incorporating CSS with digital asset management which reduced technical mishaps with sponsorship donors by 50%.
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div> <!-- timeline div ends -->
+      
+      <h2 class="heading">My <span>Certifications</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+            <img src="images/excel.png" alt="Microsoft Excel Logo" class="cert-logo"/>
+            <h3 class="cert-title">Microsoft Excel</h3>
+        </div>
+
+        <div class="services-box">
+            <img src="images/aws.png" alt="AWS Logo" class="cert-logo"/>
+            <h3 class="cert-title">AWS Certified Cloud Practitioner</h3>
+        </div>
+
+        <div class="services-box">
+            <img src="images/google-ai.png" alt="Google AI Logo" class="cert-logo"/>
+            <h3 class="cert-title">Google Introduction to Generative AI</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Browse my recent <span>projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/port1.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Note Me</h4>
+            <p>
+              Full-stack web note application. Django for the backend and React for the frontend, 
+              user authentication. REST API to connect front/backend, Deployed on Choreo
+            </p>
+            <a href="https://github.com/HunterMena/Django-React-Full-Stack-App"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/port2.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Hunter's AI Image Generator</h4>
+            <p>
+              This project was created using React, HTML, and CSS along with OpenAI's API for image generation.
+            </p>
+            <a href="https://main--thriving-strudel-06f220.netlify.app/"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/portpic.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>This Portfolio</h4>
+            <p>
+              This portfolio was created using HTML, CSS, and JavaScript. 
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/usafe.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Universal Safety</h4>
+            <p>
+              Mobile safety application for remote personal responders. Location tracking, real-time messaging, and emergency alerts.
+              Built using Flutter and Firebase, supporting user reporting and admin alerts.
+            </p>
+            <a href="https://github.com/Ananypratap007/SOBA_Spring2025"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/avnrt.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>AVNRT Detection Machine Learning</h4>
+            <p>
+              Developed machine learning models to detect Atrioventricular Nodal Reentrant Tachycardia
+              from pre-processed ECG data. Signal processing and classification algorithms to assist in early & accurate 
+              diagnosis
+            </p>
+            <a href="images\cardiology_research___UG_report.pdf"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+
+   <section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me</span></h2>
+
+  <form id="contact-form">
+    <div class="input-box">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+    </div>
+    <div class="input-box">
+      <input type="text" name="phone" placeholder="Your Phone">
+      <input type="text" name="title" placeholder="Subject" required>
+    </div>
+    <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+    <input type="submit" value="Send Message" class="btn">
+  </form>
+</section>
+
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 by Hunter Mena | All Rights Reserved</p>
+      </div>
+
+      <div class="footer-iconTap">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
